@@ -11,7 +11,7 @@ with open("requirements-test.txt") as f:
 
 setuptools.setup(
     name="autodocstrings",
-    version="0.1.1",
+    version="0.1.2",
     author="Casimir Desarmeaux",
     author_email="casimir.desarmeaux@gmail.com",
     description="A tool for updating docstrings in Python files using the OpenAI API",
