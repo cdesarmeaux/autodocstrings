@@ -1,7 +1,7 @@
 
 
 <div style="display: flex; align-items: center; margin-bottom: 10px; margin-top: 10px">
-  <img src="https://storage.googleapis.com/cdesarmeaux_autodocstrings/docstring.png" alt="Logo" style="width: 8%; margin-right: 20px;">
+  <img src="https://storage.googleapis.com/cdesarmeaux_autodocstrings/autotocstrings_logo.png" alt="Logo" style="margin-right: 20px;">
   <h1 style="margin: 0; border: 0;">autodocstrings</h1>
 </div>
 
