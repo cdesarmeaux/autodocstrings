@@ -46,6 +46,7 @@ Autodocstrings will work best for code that already has good type hints. Without
 ---
 
 ## Installation
+To install the dependencies for this tool, run the following command:
 
 <div class="termy">
 
@@ -55,11 +56,6 @@ $ pip install autodocstrings
 
 </div>
 
-## Installation
-To install the dependencies for this tool, run the following command:
-
-`pip install autodocstrings`
-
 ---
 ## Usage
 To use this tool, run the following commands:
@@ -68,7 +64,7 @@ To use this tool, run the following commands:
 
 ```console
 $ export OPENAI_API_KEY=1234567890
-$ python update_docstrings.py INPUT `       
+$ autodocstrings INPUT `       
     [--replace-existing-docstrings] `
     [--skip-constructor-docstrings] `
     [--exclude-directories EXCLUDE_DIRECTORIES] `
@@ -86,7 +82,7 @@ Update the docstrings in all Python files in the my_code directory:
 <div class="termy">
 
 ```console
-$ python update_docstrings.py my_code/
+$ autodocstrings my_code/
 ```
 
 </div>
@@ -96,7 +92,7 @@ Update the docstrings in the my_file.py file:
 <div class="termy">
 
 ```console
-$ python update_docstrings.py my_file.py
+$ autodocstrings my_file.py
 ```
 
 </div>
@@ -106,7 +102,7 @@ Update the docstrings in all Python files in the my_code directory and replace e
 <div class="termy">
 
 ```console
-$ python update_docstrings.py my_code/ --replace-existing-docstrings
+$ autodocstrings my_code/ --replace-existing-docstrings
 ```
 
 </div>
@@ -116,7 +112,7 @@ Update the docstrings in all Python files in the my_code directory, but skip upd
 <div class="termy">
 
 ```console
-$ python update_docstrings.py my_code/ --skip-constructor-docstrings
+$ autodocstrings my_code/ --skip-constructor-docstrings
 ```
 
 </div>
@@ -126,7 +122,7 @@ Update the docstrings in all Python files in the my_code directory, but exlcude 
 <div class="termy">
 
 ```console
-$ python update_docstrings.py my_code/ --exclude-directories exclude_dir --exclude-files exclude_file_1.py,exclude_file_2.py
+$ autodocstrings my_code/ --exclude-directories exclude_dir --exclude-files exclude_file_1.py,exclude_file_2.py
 ```
 
 </div>
